@@ -70,11 +70,11 @@ public class ArbolBinario {
     }
   
   }
-  public void postOderInRecursivo(Node node){
+  public void inRecursivo(Node node){
     if(node != null){
+      inRecursivo(node.getLeft());
       System.out.print(node.getValue() + " - ");
-      postOrderRecursivo(node.getLeft());
-      postOrderRecursivo(node.getRight());
+      inRecursivo(node.getRight());
      
     }
   }

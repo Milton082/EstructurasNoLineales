@@ -20,7 +20,7 @@ public class App {
         nodeRoot.getLeft().setLeft(new Node(4));
         nodeRoot.getLeft().setRight(new Node(5));
 
-        nodeRoot.getRight().setRight(new Node(6));
+        nodeRoot.getRight().setLeft(new Node(6));
         nodeRoot.getLeft().getLeft().setLeft(new Node(7));
         nodeRoot.getLeft().getRight().setLeft(new Node(8));
         System.out.println("\nPreOrder - Loop");
@@ -33,7 +33,7 @@ public class App {
         System.out.println("\n PostOrder - Recursivo");
         arbolBinario.postOrderRecursivo(nodeRoot);
         System.out.println("\n PostOrder - InRecursivo");
-        arbolBinario.postOderInRecursivo(nodeRoot);
+        arbolBinario.inRecursivo(nodeRoot);
        
     }
 
