@@ -34,6 +34,7 @@ public class App {
         arbolBinario.postOrderRecursivo(nodeRoot);
         System.out.println("\n PostOrder - InRecursivo");
         arbolBinario.inRecursivo(nodeRoot);
+        
        
     }
 
