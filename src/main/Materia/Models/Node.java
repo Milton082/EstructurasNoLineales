@@ -4,6 +4,7 @@ public class Node {
     public int value;
     public Node left;
     public Node right;
+    public int height;
 
     public Node(int value) {
         this.value = value;
@@ -22,6 +23,14 @@ public class Node {
         return left;
     }
 
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
     public void setLeft(Node left) {
         this.left = left;
     }
@@ -33,6 +42,8 @@ public class Node {
     public void setRight(Node right) {
         this.right = right;
     }
+
+ 
 
     
     
