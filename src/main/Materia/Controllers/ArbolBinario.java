@@ -1,4 +1,4 @@
-package main.Materia.Models.Controllers;
+package main.Materia.Controllers;
 
 import java.util.Stack;
 
