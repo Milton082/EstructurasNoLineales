@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class NodeGraph {
-    private int value;
+     private int value;
     private List<NodeGraph> neighbors;
 
     public NodeGraph(int value){
